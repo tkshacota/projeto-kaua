@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html>
 body {
     background-color: #87CEEB; /* Fundo azul */
     font-family: Arial, sans-serif; /* Fonte padrão */
@@ -30,3 +32,4 @@ nav ul li a {
 nav ul li a:hover {
     color: darkred; /* Cor dos links ao passar o mouse */
 }
+</html>
