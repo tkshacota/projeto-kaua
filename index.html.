@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Projeto</title>
+</head>
+<body>
+    <h1>Bem-vindo ao Meu Portfólio</h1>
+
+    <h2>Apresentação</h2>
+    <p>Olá, meu nome é [Nome do Aluno]. Sou estudante de [Curso/Disciplina].</p>
+    <p>Este projeto é parte do nosso curso e inclui várias páginas sobre diferentes temas que desenvolvemos ao longo das aulas.</p>
+
+    <h2>Navegação entre os Projetos</h2>
+    <nav>
+        <ul>
+            <li><a href="projeto1.html">Projeto 1</a></li>
+            <li><a href="projeto2.html">Projeto 2</a></li>
+            <li><a href="projeto3.html">Projeto 3</a></li>
+            <li><a href="projeto4.html">Projeto 4</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
