@@ -1,51 +1,36 @@
+:root {
+    color-scheme: light;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #17212b;
+    background: #f1f5f9;
+}
+
+* { box-sizing: border-box; }
 
 body {
-    background-color: #87CEEB; /* Fundo azul */
-    font-family: Arial, sans-serif; /* Fonte padrão */
+    min-height: 100vh;
     margin: 0;
-    padding: 20px;
-    text-align: justify; /* Texto justificado */
-}
-h1 {
-    color: darkblue;
-    text-align: center; /* Centralizar o título principal */
-}
-h2 {
-    color: darkgreen;
-}
-p {
-    color: #333; /* Cor do texto */
-    line-height: 1.6; /* Espaçamento entre linhas */
-}
-nav ul {
-    list-style-type: none; /* Remove marcadores da lista */
-    padding: 0;
-}
-nav ul li {
-    margin: 5px 0;
-}
-nav ul li a {
-    text-decoration: none; /* Remove sublinhado dos links */
-    color: darkblue; /* Cor dos links */
-}
-nav ul li a:hover {
-    color: darkred; /* Cor dos links ao passar o mouse */
-}
-/* Estilos para a imagem e o conteúdo */
-.container {
-  display: flex; /* Ativa o Flexbox */
-  align-items: flex-start; /* Alinha os itens no topo */
-  width: 80%; /* Largura do container */
-  margin: 0 auto; /* Centraliza o container */
+    padding: 2rem 1rem;
+    display: grid;
+    place-items: center;
 }
 
-.foto-perfil {
-  width: 30%; /* Largura da imagem */
-  margin-right: 20px; /* Espaçamento entre a imagem e o texto */
-  object-fit: cover; /* Garante que a imagem se ajuste bem */
+.cartao {
+    width: min(100%, 760px);
+    padding: clamp(1.5rem, 5vw, 3rem);
+    background: #fff;
+    border: 1px solid #d8e1ea;
+    border-radius: 18px;
+    box-shadow: 0 14px 40px rgb(23 33 43 / 8%);
 }
 
-.conteudo {
-  flex: 1; /* Faz o conteúdo ocupar o espaço restante */
-}
-
+header { border-bottom: 1px solid #d8e1ea; padding-bottom: 1.5rem; }
+.sobretitulo { color: #315f86; font-size: 0.85rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; }
+h1 { margin: 0.4rem 0; color: #173b5e; font-size: clamp(2rem, 6vw, 3rem); }
+h2 { margin-top: 1.8rem; color: #173b5e; font-size: 1.25rem; }
+p, li { line-height: 1.65; }
+ul { padding-left: 1.2rem; }
+li + li { margin-top: 0.6rem; }
+a { color: #125e9c; text-underline-offset: 0.18em; }
+a:hover { color: #073b65; }
+footer { display: flex; gap: 0.7rem; margin-top: 2rem; padding-top: 1.25rem; border-top: 1px solid #d8e1ea; }
